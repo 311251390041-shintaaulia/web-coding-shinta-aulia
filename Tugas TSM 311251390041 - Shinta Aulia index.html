@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pertemuan 7 - Biodata Mahasiswa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            padding-bottom: 50px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #2e6f21; /* Hijau tua sesuai contoh */
+            display: flex;
+            justify-content: space-around;
+            padding: 12px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Title */
+        h1 {
+            font-size: 32px;
+            color: #000000;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        /* Meta Badges */
+        .meta-container {
+            margin-bottom: 25px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .badge-author {
+            background-color: #cbd763; /* Hijau muda kekuningan */
+            color: white;
+            padding: 6px 12px;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .badge-time {
+            background-color: #cbd763;
+            color: white;
+            padding: 6px 12px;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Content Area */
+        .content-section {
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        /* Left Side: Placeholder Box (Menggantikan gambar produk/profil) */
+        .info-box {
+            width: 30%;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        .info-box h3 {
+            margin-bottom: 10px;
+            font-size: 16px;
+            border-bottom: 2px solid #2e6f21;
+            padding-bottom: 5px;
+        }
+
+        .info-box p {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        /* Right Side: Text Narrative */
+        .biography-text {
+            width: 70%;
+            text-align: justify;
+        }
+
+        /* Read More Link */
+        .read-more-wrapper {
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        .read-more {
+            color: #e24a31; /* Warna merah bata sesuai contoh */
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Academic</a>
+        <a href="#">Skills</a>
+        <a href="#">Contact</a>
+        <a href="#">Uncategorized</a>
+    </nav>
+
+    <div class="container">
+        <h1> Teknologi Sosial Media - Biodata Shinta Aulia</h1>
+
+        <div class="meta-container">
+            <div class="badge-author">POSTED BY SHINTA AULIA</div>
+            <div class="badge-time">ON 19.26| NO COMMENT</div>
+        </div>
+
+        <div class="content-section">
+            
+            <div class="info-box">
+                <h3>Data Mahasiswa</h3>
+                <p><strong>Nama:</strong> Shinta Aulia</p>
+                <p><strong>NIM:</strong> 311251390041</p>
+                <p><strong>Kelas:</strong> AA1 Manajemen</p>
+                <p><strong>Matkul:</strong> Teknologi Sosial Media</p>
+                <p><strong>Dosen:</strong> Okto Kurnia, S. Kom., M. Kom.</p>
+            </div>
+
+            <div class="biography-text">
+                <p>
+                    Nama saya Shinta Aulia, seorang mahasiswa aktif kelas AA1 manajemenyang saat ini sedang menempuh mata kuliah Teknologi Sosial Media. Berbekal latar belakang pendidikan dari SMK Negeri 24 Jakarta jurusan Perhotelan, saya memiliki ketertarikan yang besar serta pengalaman praktis dalam dunia pelayanan dan operasional perhotelan, khususnya pada bidang <em>housekeeping</em> dan <em>front office</em>. Saya pernah menyelesaikan program pelatihan kerja lapangan (training) selama 6 bulan di Hotel InterContinental, di mana saya mengasah kemampuan komunikasi, kerja sama tim, serta tanggung jawab profesional.
+                </p>
+                <br>
+                <p>
+                    Melalui tugas perkuliahan ini, saya mengintegrasikan elemen desain web responsif berbasis HTML dan CSS yang bersih dan minimalis tanpa mengandalkan elemen grafis atau foto eksternal. Struktur halaman ini dirancang dengan navigasi atas berwarna hijau tua yang tegas, penanda informasi yang kontras, serta tata letak kolom yang seimbang guna memberikan pengalaman membaca yang nyaman dan profesional.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="read-more-wrapper">
+            <a href="#" class="read-more">Read More</a>
+        </div>
+    </div>
+
+</body>
+</html>
